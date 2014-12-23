@@ -1,0 +1,71 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+header {
+    background-color: #3a322e;
+}
+
+.wrapper {
+    display: block;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.b-brand {
+
+}
+
+.logo {
+    display: block;
+    width: 161px;
+    height: 48px;
+    position: relative;
+}
+
+.logo-link {
+    position: absolute;
+    width: 161px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    background: url('../img/sprite.png') 0 0 no-repeat;
+}
+
+
+.b-left {
+    float: left;
+}
+
+.b-right {
+    float: right;
+}
+
+.menu {
+
+}
+
+.menu__item {
+
+}
+
+.menu__item-link {
+
+}
+
+.menu__item-desc {
+
+}
