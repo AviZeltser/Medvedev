@@ -14,8 +14,21 @@ body {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
+a {
+    text-decoration: none;
+}
+
+
 header {
     background-color: #3a322e;
+    padding: 26px 0;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: normal;
+    color: #3a322e;
+    margin-bottom: 22px;
 }
 
 .wrapper {
@@ -55,17 +68,55 @@ header {
 }
 
 .menu {
-
+    margin-top: 6px;
 }
 
 .menu__item {
+    float: left;
+    margin-left: 28px;
+}
 
+.menu__item:hover .menu__item-link {
+    color: #ffdc72;
 }
 
 .menu__item-link {
-
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .menu__item-desc {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    opacity: .5;
+}
 
+.simple-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3a322e;
+}
+
+.huge-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: #3a322e;
+}
+
+.b-content {
+    margin-top: 32px;
+}
+
+.border-block {
+    width: 100%;
+    border: 3px solid #d7d1cf;
+    padding: 40px 0 40px 0px;
 }
