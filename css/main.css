@@ -31,13 +31,38 @@ h1 {
     margin-bottom: 22px;
 }
 
+.title {
+    font-size: 36px;
+    font-weight: 300;
+    color: #3a322e;
+}
+
+.title.huge {
+    text-transform: uppercase;
+}
+
+.title.mid {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #3a322e;
+}
+
 .wrapper {
     display: block;
     width: 940px;
     margin: 0 auto;
 }
 
+.center {
+    text-align: center;
+}
+
 .b-brand {
+
+}
+
+.row {
 
 }
 
@@ -104,6 +129,20 @@ h1 {
     color: #3a322e;
 }
 
+.small-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #988f8b;
+}
+
+.mid-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3a322e;
+}
+
 .huge-text {
     font-weight: 400;
     font-size: 36px;
@@ -116,7 +155,104 @@ h1 {
 }
 
 .border-block {
-    width: 100%;
     border: 3px solid #d7d1cf;
-    padding: 40px 0 40px 0px;
+    padding: 46px 0 56px 114px;
+    position: relative;
+}
+
+.flex-direction-nav {
+    display: none;
+}
+
+.slider {
+    margin-top: 38px;
+}
+
+.b-trust {
+    margin-top: 30px;
+}
+
+.b-trust__item {
+    display: inline-block;
+}
+
+.b-trust__title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #3a322e;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+.b-trust__list {
+    overflow: hidden;
+    margin: 24px -26px 0 -26px;
+}
+
+.b-trust__item {
+    margin: 0 26px;
+}
+
+.b-trust__img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto 11px auto;
+    background: url('../img/sprite.png') 0 -115px no-repeat;
+}
+
+.b-trust__img.startup {
+    background-position: 0 -170px;
+}
+
+.b-trust__img.levelup {
+    background-position: 0 -210px;
+}
+
+.b-trust__img.fixes {
+    background-position: 0 -260px;
+}
+
+.b-feed {
+    margin-top: 111px;
+}
+
+.feed-user__name {
+    display: block;
+    margin-top: 12px;
+}
+
+.feed-user__desc {
+    margin-top: 3px;
+    display: block;
+}
+
+.feed-user__img {
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.feed-user__img img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid #e0dddc;
+    padding: 54px 0 36px 0;
+}
+
+footer {
+
+}
+.reload-btn {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 26px auto 23px auto;
+    background: url('../img/sprite.png') 0 -300px no-repeat;
+    cursor: pointer;
 }
