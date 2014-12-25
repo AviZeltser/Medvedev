@@ -1,4 +1,15 @@
+html, body {
+    min-width: 100%;
+}
+
+.b-content {
+    min-height: 100%;
+    position: relative;
+}
 body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -18,6 +29,9 @@ a {
     text-decoration: none;
 }
 
+.container {
+    padding-bottom: 113px;
+}
 
 header {
     background-color: #3a322e;
@@ -143,11 +157,26 @@ h1 {
     color: #3a322e;
 }
 
+.large-text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3a322e;
+}
+
+
 .huge-text {
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
     color: #3a322e;
+}
+
+.super-text {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+    color: #958c88;
 }
 
 .b-content {
@@ -157,6 +186,14 @@ h1 {
 .border-block {
     border: 3px solid #d7d1cf;
     padding: 46px 0 56px 114px;
+    position: relative;
+}
+
+.border-block.tiny {
+    width: 419px;
+    display: inline-block;
+    border: 3px solid #d7d1cf;
+    padding: 30px 0 30px 35px;
     position: relative;
 }
 
@@ -216,7 +253,11 @@ h1 {
 }
 
 .b-feed {
-    margin-top: 111px;
+    margin-top: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border-top: 1px solid #e0dddc;
+    border-bottom: 1px solid #e0dddc;
 }
 
 .feed-user__name {
@@ -240,14 +281,14 @@ h1 {
 }
 
 footer {
-    margin-top: 100px;
-    border-top: 1px solid #e0dddc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px ;
     padding: 54px 0 36px 0;
 }
 
-footer {
-
-}
 .reload-btn {
     width: 32px;
     height: 32px;
@@ -255,4 +296,98 @@ footer {
     margin: 26px auto 23px auto;
     background: url('../img/sprite.png') 0 -300px no-repeat;
     cursor: pointer;
+}
+
+.b-phone {
+    margin-bottom: 19px;
+}
+.b-mail {
+    margin-bottom: 14px;
+}
+.b-address {
+    margin-bottom: 14px;
+}
+
+.link {
+    color: #af8e2b;
+}
+
+.b-services {
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+.b-services__list .title {
+    margin-bottom: 21px;
+}
+
+.b-service__text {
+    width: 400px;
+    padding-bottom: 15px;
+    height: 110px;
+}
+
+.b-services__list {
+    margin-left: -7px;
+    margin-right: -16px;
+}
+
+.b-services__item  {
+    height: 206px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.submit-btn {
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    background: #af8e2b;
+    padding: 5px 30px 9px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.field {
+    border-radius: 3px;
+    border: 1px solid #958c88;
+    text-indent: 20px;
+    height: 32px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    color: #958c88;
+    width: 278px;
+    margin-right: 16px;
+}
+
+.fieldarea {
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid #958c88;
+    padding-left: 20px;
+    height: 70px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    color: #958c88;
+    width: 554px;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+.feed__form {
+    margin-top: 28px;
+}
+
+.feed__form .submit-btn {
+    margin-top: 18px;
+}
+
+.feed-txt {
+    margin-top: 15px;
 }
