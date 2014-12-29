@@ -14,22 +14,22 @@
         <div class="wrapper clearfix">
             <div class="b-brand">
                 <div class="logo b-left">
-                    <a href="/" class="logo-link" title="Medve{Dev} - web development agency">Medve{Dev} - web development agency</a>
+                    <a href="index.html" class="logo-link" title="Medve{Dev} - web development agency">Medve{Dev} - web development agency</a>
                 </div>
                 <div class="menu b-right">
-                    <a href="#" class="menu__item">
+                    <a href="projects.html" class="menu__item">
                         <span class="menu__item-link">Проекты</span>
                         <span class="menu__item-desc">создали</span>
                     </a>
-                    <a href="#" class="menu__item">
+                    <a href="services.html" class="menu__item">
                         <span class="menu__item-link">услуги</span>
                         <span class="menu__item-desc">предлагаем</span>
                     </a>
-                    <a href="#" class="menu__item">
+                    <a href="about.html" class="menu__item">
                         <span class="menu__item-link">агентство</span>
                         <span class="menu__item-desc">развивается</span>
                     </a>
-                    <a href="#" class="menu__item">
+                    <a href="contacts.html" class="menu__item">
                         <span class="menu__item-link">контакты</span>
                         <span class="menu__item-desc">сохраняются</span>
                     </a>
@@ -41,28 +41,27 @@
         <div class="projects">
             <div class="wrapper">
                 <h1>Проекты</h1>
-
-                <div class="projects__filters clearfix">
-                    <div class="projects__type b-left">
-                        <div class="filter-item">
+                <div class="projects__filters clearfix" id="filters">
+                    <div class="projects__type b-left button-group" data-filter-group="type">
+                        <div class="filter-item js-main-filter" data-filter=".web">
                             Web-дизайн и разработка
                         </div>
-                        <div class="filter-item">
+                        <div class="filter-item js-main-filter" data-filter=".graph">
                             Графический дизайн
                         </div>
                     </div>
-                    <div class="projects__type b-right">
-                        <div class="filter-item">
+                    <div class="projects__type b-right button-group" data-filter-group="client">
+                        <div class="filter-item js-main-filter" data-filter=".clients">
                             Клиентские проекты
                         </div>
-                        <div class="filter-item">
+                        <div class="filter-item js-main-filter" data-filter=".our">
                             Собственные проекты
                         </div>
                     </div>
                 </div>
             </div>
             <div class="projects__list clearfix">
-                <div class="projects__item w2">
+                <div class="projects__item w2 clients web">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -76,7 +75,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="projects__item">
+                <div class="projects__item our web">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -90,7 +89,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="projects__item">
+                <div class="projects__item clients web">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -104,7 +103,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="projects__item">
+                <div class="projects__item clients graph">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -118,7 +117,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="projects__item">
+                <div class="projects__item our web">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -132,7 +131,7 @@
                         </article>
                     </a>
                 </div>
-                <div class="projects__item w2">
+                <div class="projects__item w2 our web">
                     <a href="#">
                         <article>
                             <div class="projects__img">
@@ -160,6 +159,7 @@
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
