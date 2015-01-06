@@ -1,385 +1,382 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Medve{Dev} - web development agency</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/flexslider.css">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Medve{Dev} - web development agency</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flexslider.css">
 
-</head>
-<body>
-<div class="container main">
-    <header>
-        <div class="wrapper clearfix">
-            <div class="b-brand">
-                <div class="logo b-left">
-                    <a href="#" class="logo-link" title="Medve{Dev} - web development agency">Medve{Dev} - web development agency</a>
+    </head>
+    <body>
+        <div class="container main">
+            <header>
+                <div class="wrapper clearfix">
+                    <div class="b-brand">
+                        <div class="logo b-left">
+                            <a href="#" class="logo-link" title="Medve{Dev} - web development agency">Medve{Dev} - web development agency</a>
+                        </div>
+                        <div class="menu b-right">
+                            <a href="projects.html" class="menu__item">
+                                <span class="menu__item-link">Проекты</span>
+                                <span class="menu__item-desc">создали</span>
+                            </a>
+                            <a href="services.html" class="menu__item">
+                                <span class="menu__item-link">услуги</span>
+                                <span class="menu__item-desc">предлагаем</span>
+                            </a>
+                            <a href="about.html" class="menu__item">
+                                <span class="menu__item-link">агентство</span>
+                                <span class="menu__item-desc">развивается</span>
+                            </a>
+                            <a href="contacts.html" class="menu__item">
+                                <span class="menu__item-link">контакты</span>
+                                <span class="menu__item-desc">сохраняются</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu b-right">
-                    <a href="projects.html" class="menu__item">
-                        <span class="menu__item-link">Проекты</span>
-                        <span class="menu__item-desc">создали</span>
-                    </a>
-                    <a href="services.html" class="menu__item">
-                        <span class="menu__item-link">услуги</span>
-                        <span class="menu__item-desc">предлагаем</span>
-                    </a>
-                    <a href="about.html" class="menu__item">
-                        <span class="menu__item-link">агентство</span>
-                        <span class="menu__item-desc">развивается</span>
-                    </a>
-                    <a href="contacts.html" class="menu__item">
-                        <span class="menu__item-link">контакты</span>
-                        <span class="menu__item-desc">сохраняются</span>
-                    </a>
+            </header>
+            <div class="b-content">
+                <div class="b-promo">
+                    <video autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+                        <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
+                        <source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+                    </video>
+                    <div class="b-promo__holder">
+                        <div class="b-promo__text center">
+                            КОМАНДА <a href="about.html" class="huge-link prof">ПРОФЕССИОНАЛОВ</a><br/> В ОБЛАСТИ <a href="projects.html" class="huge-link proj">ПРОЕКТИРОВАНИЯ</a>,
+                            <a href="projects.html" class="huge-link design">ДИЗАЙНА</a><br/> И <a href="projects.html" class="huge-link dev">РАЗРАБОТКИ</a> ИНТЕРНЕТ ПРОЕКТОВ<br/>
+                            ПОМОЖЕТ <a href="services.html" class="huge-link start">ЗАПУСТИТЬ СТАРТ-АП</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="wrapper">
+                        <h1 class="center upper title">Проекты</h1>
+                        <div class="simple-text center">
+                            К работе мы подходим основательно, выявляя основные цели, целевую аудиторию и ее потребности, анализируя рынок и
+                            применяя основные тренды (или же оставаясь верными классике). Мы не только выполняем заказы, но и экспериментируем
+                            и оттачиваем мастерство на собственных проектах.
+                        </div>
+                        <div class="projects__filters clearfix center" id="filters">
+                            <div class="projects__type button-group">
+                                <div class="filter-item js-main-filter" data-filter=".clients">
+                                    Клиентские проекты
+                                </div>
+                                <div class="filter-item js-main-filter" data-filter=".our">
+                                    Собственные проекты
+                                </div>
+                                <div class="filter-item js-main-filter all active" data-filter="*">
+                                    Все проекты
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__list clearfix">
+                        <div class="projects__item w2 clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/hellohoney.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Hello, honey</h2>
+                                        <span class="projects__desc">разработка лендинга под краудфандинговый проект</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item our">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/face.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Антон Пятайкин</h2>
+                                        <span class="projects__desc">разработка сайта</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/note.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Idea Fix</h2>
+                                        <span class="projects__desc">разработка сайта</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/zoocard.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Zoocard</h2>
+                                        <span class="projects__desc">нейминг и фирменный стиль</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item our">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/zoocard_site.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Zoocard</h2>
+                                        <span class="projects__desc">разработка интернет-магазина</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item w2 our">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/rollbros_site.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Roll Bro`s</h2>
+                                        <span class="projects__desc">разработка интернет-магазина</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/face.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Антон Пятайкин</h2>
+                                        <span class="projects__desc">разработка сайта</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/note.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Idea Fix</h2>
+                                        <span class="projects__desc">разработка сайта</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item w2 our">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/hellohoney.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Hello, honey</h2>
+                                        <span class="projects__desc">разработка лендинга под краудфандинговый проект</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/zoocard.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Zoocard</h2>
+                                        <span class="projects__desc">нейминг и фирменный стиль</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item our">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/zoocard_site.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Zoocard</h2>
+                                        <span class="projects__desc">разработка интернет-магазина</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                        <div class="projects__item w2 clients">
+                            <a href="#">
+                                <article>
+                                    <div class="projects__img">
+                                        <img src="img/rollbros_site.jpg">
+                                    </div>
+                                    <div class="projects__info center">
+                                        <span class="fake-back"></span>
+                                        <h2 class="projects__title">Roll Bro`s</h2>
+                                        <span class="projects__desc">разработка интернет-магазина</span>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="wrapper">
+                        <h1 class="center upper title">Пара слов о нас</h1>
+                        <div class="simple-text center">
+                            Мы команда молодых и энергичных специалистов, которые стремятся помочь представителям малого и среднего
+                            бизнеса заявить о себе в Интернете. Нам «срывает крышу», если задача не только сложная, но и заставляет
+                            нарушать устоявшиеся принципы маркетинга, дизайна или разработки. Однако мы всегда остаемся верны своим
+                            внутренним принципам: внимание к деталям, стремление к повышению качества работы и достижению поставленной цели.
+                        </div>
+                        <div class="row b-trust">
+                            <div class="title mid center">Нам доверяют, потому что мы умеем</div>
+                            <div class="b-trust__list">
+                                <div class="b-trust__item">
+                                    <span class="b-trust__img new-p">
+                                    </span>
+                                    <span class="b-trust__title">выводить на рынок<br/>новые продукты</span>
+                                </div>
+                                <div class="b-trust__item">
+                                    <span class="b-trust__img startup">
+                                    </span>
+                                    <span class="b-trust__title">запускать<br/>Интернет-стартапы</span>
+                                </div>
+                                <div class="b-trust__item">
+                                    <span class="b-trust__img levelup">
+                                    </span>
+                                    <span class="b-trust__title">повышать уровень<br/>продаж и дохода</span>
+                                </div>
+                                <div class="b-trust__item">
+                                    <span class="b-trust__img fixes">
+                                    </span>
+                                    <span class="b-trust__title">выявлять и устранять<br/>проблемные места</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="row b-feed reviews">
+                        <div class="wrapper">
+                            <div class="title center huge">Отзывы наших клиентов</div>
+                            <div class="btn reload-btn js-reload-feed"></div>
+                            <div class="b-feed__list js-slider-reviews">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="b-feed__item">
+                                            <div class="feed-text mid-text center">
+                                                «Профессиональная команда, арт-директор с восхитительным<br/>
+                                                вкусом и опытом, умение различать классику и тренды - это то, что<br/>
+                                                помогло реализовать нам восхитительный проект!»
+                                            </div>
+                                            <div class="feed-user center">
+                                                <div class="feed-user__img">
+                                                    <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
+                                                </div>
+                                                <span class="feed-user__name">Антон Пятайкин</span>
+                                                <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="b-feed__item">
+                                            <div class="feed-text mid-text center">
+                                                «Профессиональная команда, арт-директор с восхитительным<br/>
+                                                вкусом и опытом, умение различать классику и тренды - это то, что<br/>
+                                                помогло реализовать нам восхитительный проект!»
+                                            </div>
+                                            <div class="feed-user center">
+                                                <div class="feed-user__img">
+                                                    <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
+                                                </div>
+                                                <span class="feed-user__name">Антон Пятайкин</span>
+                                                <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="b-feed__item">
+                                            <div class="feed-text mid-text center">
+                                                «Профессиональная команда, арт-директор с восхитительным<br/>
+                                                вкусом и опытом, умение различать классику и тренды - это то, что<br/>
+                                                помогло реализовать нам восхитительный проект!»
+                                            </div>
+                                            <div class="feed-user center">
+                                                <div class="feed-user__img">
+                                                    <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
+                                                </div>
+                                                <span class="feed-user__name">Антон Пятайкин</span>
+                                                <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row b-feed feedback">
+                        <div class="wrapper">
+                            <div class="title center huge">Оставить заявку</div>
+                            <div class="b-feed__list">
+                                <div class="b-feed__item">
+                                    <div class="simple-text center feed-txt">
+                                        Мы всегда открыты для интересных проектов и готовы проявить себя<br/>
+                                        в достижении даже самых невероятных целей
+                                    </div>
+                                    <form class="feed__form" action="" method="post">
+                                        <div class="form-row center">
+                                            <input type="text" name="f-name" placeholder="Имя" class="field">
+                                            <input type="text" name="f-contact" placeholder="Почта или телефон" class="field">
+                                        </div>
+                                        <div class="form-row center">
+                                            <textarea class="fieldarea" placeholder="Сообщение"></textarea>
+                                        </div>
+                                        <div class="form-row center">
+                                            <input type="submit" value="Отправить" class="submit-btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="b-content">
-        <div class="b-promo">
-            <video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
-                <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-                <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-                <source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-            </video>
-            <div class="b-promo__holder">
-                <div class="b-promo__text center">
-                    КОМАНДА <a href="#" class="huge-link prof">ПРОФЕССИОНАЛОВ</a><br/> В ОБЛАСТИ <a href="#" class="huge-link proj">ПРОЕКТИРОВАНИЯ</a>,
-                    <a href="#" class="huge-link design">ДИЗАЙНА</a><br/> И <a href="#" class="huge-link dev">РАЗРАБОТКИ</a> ИНТЕРНЕТ ПРОЕКТОВ<br/>
-                    ПОМОЖЕТ <a href="#" class="huge-link start">ЗАПУСТИТЬ СТАРТ-АП</a>
-                </div>
-            </div>
-        </div>
-        <div class="projects">
+        <footer>
             <div class="wrapper">
-                <h1 class="center upper title">Проекты</h1>
-                <div class="simple-text center">
-                    К работе мы подходим основательно, выявляя основные цели, целевую аудиторию и ее потребности, анализируя рынок и
-                    применяя основные тренды (или же оставаясь верными классике). Мы не только выполняем заказы, но и экспериментируем
-                    и оттачиваем мастерство на собственных проектах.
-                </div>
-                <div class="projects__filters clearfix center" id="filters">
-                    <div class="projects__type button-group">
-                        <div class="filter-item js-main-filter" data-filter=".clients">
-                            Клиентские проекты
-                        </div>
-                        <div class="filter-item js-main-filter" data-filter=".our">
-                            Собственные проекты
-                        </div>
-                        <div class="filter-item js-main-filter all active" data-filter="*">
-                            Все проекты
-                        </div>
-                    </div>
-                </div>
+                <div class="small-text center">© 2014. «Medve Dev» — студия нестандартных Интернет-решений</div>
             </div>
-            <div class="projects__list clearfix">
-                <div class="projects__item w2 clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/hellohoney.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Hello, honey</h2>
-                                <span class="projects__desc">разработка лендинга под краудфандинговый проект</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item our">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/face.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Антон Пятайкин</h2>
-                                <span class="projects__desc">разработка сайта</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/note.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Idea Fix</h2>
-                                <span class="projects__desc">разработка сайта</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/zoocard.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Zoocard</h2>
-                                <span class="projects__desc">нейминг и фирменный стиль</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item our">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/zoocard_site.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Zoocard</h2>
-                                <span class="projects__desc">разработка интернет-магазина</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item w2 our">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/rollbros_site.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Roll Bro`s</h2>
-                                <span class="projects__desc">разработка интернет-магазина</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-
-                <div class="projects__item clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/face.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Антон Пятайкин</h2>
-                                <span class="projects__desc">разработка сайта</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/note.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Idea Fix</h2>
-                                <span class="projects__desc">разработка сайта</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item w2 our">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/hellohoney.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Hello, honey</h2>
-                                <span class="projects__desc">разработка лендинга под краудфандинговый проект</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/zoocard.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Zoocard</h2>
-                                <span class="projects__desc">нейминг и фирменный стиль</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item our">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/zoocard_site.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Zoocard</h2>
-                                <span class="projects__desc">разработка интернет-магазина</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="projects__item w2 clients">
-                    <a href="#">
-                        <article>
-                            <div class="projects__img">
-                                <img src="img/rollbros_site.jpg">
-                            </div>
-                            <div class="projects__info center">
-                                <span class="fake-back"></span>
-                                <h2 class="projects__title">Roll Bro`s</h2>
-                                <span class="projects__desc">разработка интернет-магазина</span>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="about">
-            <div class="wrapper">
-                <h1 class="center upper title">Пара слов о нас</h1>
-                <div class="simple-text center">
-                    Мы команда молодых и энергичных специалистов, которые стремятся помочь представителям малого и среднего
-                    бизнеса заявить о себе в Интернете. Нам «срывает крышу», если задача не только сложная, но и заставляет
-                    нарушать устоявшиеся принципы маркетинга, дизайна или разработки. Однако мы всегда остаемся верны своим
-                    внутренним принципам: внимание к деталям, стремление к повышению качества работы и достижению поставленной цели.
-                </div>
-                <div class="row b-trust">
-                    <div class="title mid center">Нам доверяют, потому что мы умеем</div>
-                    <div class="b-trust__list">
-                        <div class="b-trust__item">
-                            <span class="b-trust__img new-p">
-                            </span>
-                            <span class="b-trust__title">выводить на рынок<br/>новые продукты</span>
-                        </div>
-                        <div class="b-trust__item">
-                            <span class="b-trust__img startup">
-                            </span>
-                            <span class="b-trust__title">запускать<br/>Интернет-стартапы</span>
-                        </div>
-                        <div class="b-trust__item">
-                            <span class="b-trust__img levelup">
-                            </span>
-                            <span class="b-trust__title">повышать уровень<br/>продаж и дохода</span>
-                        </div>
-                        <div class="b-trust__item">
-                            <span class="b-trust__img fixes">
-                            </span>
-                            <span class="b-trust__title">выявлять и устранять<br/>проблемные места</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="feedback">
-            <div class="row b-feed reviews">
-                <div class="wrapper">
-                    <div class="title center huge">Отзывы наших клиентов</div>
-                    <div class="btn reload-btn js-reload-feed"></div>
-                    <div class="b-feed__list js-slider-reviews">
-                        <ul class="slides">
-                            <li>
-                                <div class="b-feed__item">
-                                    <div class="feed-text mid-text center">
-                                        «Профессиональная команда, арт-директор с восхитительным<br/>
-                                        вкусом и опытом, умение различать классику и тренды - это то, что<br/>
-                                        помогло реализовать нам восхитительный проект!»
-                                    </div>
-                                    <div class="feed-user center">
-                                        <div class="feed-user__img">
-                                            <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
-                                        </div>
-                                        <span class="feed-user__name">Антон Пятайкин</span>
-                                        <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="b-feed__item">
-                                    <div class="feed-text mid-text center">
-                                        «Профессиональная команда, арт-директор с восхитительным<br/>
-                                        вкусом и опытом, умение различать классику и тренды - это то, что<br/>
-                                        помогло реализовать нам восхитительный проект!»
-                                    </div>
-                                    <div class="feed-user center">
-                                        <div class="feed-user__img">
-                                            <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
-                                        </div>
-                                        <span class="feed-user__name">Антон Пятайкин</span>
-                                        <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="b-feed__item">
-                                    <div class="feed-text mid-text center">
-                                        «Профессиональная команда, арт-директор с восхитительным<br/>
-                                        вкусом и опытом, умение различать классику и тренды - это то, что<br/>
-                                        помогло реализовать нам восхитительный проект!»
-                                    </div>
-                                    <div class="feed-user center">
-                                        <div class="feed-user__img">
-                                            <img src="img/feedman.jpg" width="142" height="142" alt="Feedman">
-                                        </div>
-                                        <span class="feed-user__name">Антон Пятайкин</span>
-                                        <span class="feed-user__desc small-text">ведущий на все случаи жизни</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row b-feed feedback">
-                <div class="wrapper">
-                    <div class="title center huge">Оставить заявку</div>
-                    <div class="b-feed__list">
-                        <div class="b-feed__item">
-                            <div class="simple-text center feed-txt">
-                                Мы всегда открыты для интересных проектов и готовы проявить себя<br/>
-                                в достижении даже самых невероятных целей
-                            </div>
-                            <form class="feed__form" action="" method="post">
-                                <div class="form-row center">
-                                    <input type="text" name="f-name" placeholder="Имя" class="field">
-                                    <input type="text" name="f-contact" placeholder="Почта или телефон" class="field">
-                                </div>
-                                <div class="form-row center">
-                                    <textarea class="fieldarea" placeholder="Сообщение"></textarea>
-                                </div>
-                                <div class="form-row center">
-                                    <input type="submit" value="Отправить" class="submit-btn">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<footer>
-    <div class="wrapper">
-        <div class="small-text center">© 2014. «Medve Dev» — студия нестандартных Интернет-решений</div>
-    </div>
-</footer>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Exo+2:700,600,300,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="js/jquery.maximage.js"></script>
-<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-</body>
+        </footer>
+        <link href='http://fonts.googleapis.com/css?family=Exo+2:700,600,300,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="js/jquery.maximage.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>
